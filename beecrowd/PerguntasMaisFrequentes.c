@@ -12,7 +12,6 @@ for(int i=0; i<n; i++){
 }
 
 for(int i=0; i<n;i++){
-   // contado[i]=1;
     if(contado[i]!=1){
         int cont=1;
         for(int j=i+1; j<n;j++){
