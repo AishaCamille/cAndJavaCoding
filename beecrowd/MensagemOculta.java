@@ -6,12 +6,10 @@ public class MensagemOculta {
         Scanner sc=new Scanner(System.in);
         int numTeste=sc.nextInt();
         sc.nextLine();
-        //String code="";
 
 
         for(int i=0; i<numTeste; i++){
             String s= sc.nextLine();
-            int tam= s.length();
             String code="";
             int j=0;
 
